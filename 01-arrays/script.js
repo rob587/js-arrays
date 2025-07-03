@@ -14,8 +14,11 @@ const fourthTeacher = console.log(teachers[3]);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
+
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+const lastTeacher = "Luca"
+
+console.log(teachers.pop());
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
