@@ -10,18 +10,20 @@ const teachers = [
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = console.log(teachers[3]);
+const fourthTeacher = teachers[3]
+console.log(teachers[3]);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
-
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = "Luca"
-console.log(teachers.pop());
+const lastTeacher = teachers.pop();
+
+
+
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = "Nathan";
-console.log(teachers.shift())
+const firstTeacher =teachers.shift() ;
+
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
@@ -34,8 +36,8 @@ console.log(teachers)
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf("Lewis")
+
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
